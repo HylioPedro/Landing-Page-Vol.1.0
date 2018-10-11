@@ -1,0 +1,47 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.view{
+  background:url(../photo_2018-09-28_09-06-46.jpg) no-repeat center center fixed;
+  background-size:cover;
+  
+}
+.top-nav-collapse {
+  background-color: #1c2a48 ;
+ }
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent;
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2a48 ;
+  }
+}
+
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 100px;
+}
+footer{
+  background-color:#1c2a48 ;
+}
+ body {
+      position: relative; 
+  }
+   #ourwork {padding-top:80px;}
+    #ourprice {padding-top:80px;}
+     #contact {padding-top:80px;}
+  
